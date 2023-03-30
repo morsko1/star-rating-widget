@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+.star-rating {
+  font-size: 24px;
+  user-select: none;
+}
+
+.stars {
+  font-size: 24px;
+  user-select: none;
+  display: inline-block;
+}
+
+.star {
+  cursor: pointer;
+  opacity: 0.25;
+}
+
+.star.hovered {
+  opacity: 0.6;
+}
+
+.star.active {
+  opacity: 1;
+}
