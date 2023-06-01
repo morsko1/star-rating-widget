@@ -1,0 +1,22 @@
+.star-rating {
+  padding: 1em;
+}
+
+.star {
+  font-size: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+  user-select: none;
+}
+
+.star.disabled {
+  cursor: auto;
+}
+
+.star.hovered {
+  opacity: 0.7;
+}
+
+.star.active {
+  opacity: 1;
+}
